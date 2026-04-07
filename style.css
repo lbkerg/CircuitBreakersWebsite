@@ -1,0 +1,190 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #F46A25;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+nav .nav-links a:hover {
+    color: #000000;
+}
+
+
+/* Hero Section */
+.hero {
+    height: 50vh;
+    background-image: url('pictures/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-overlay {
+    text-align: center;
+    /*background: rgba(0,0,0,0.4);  optional semi-transparent overlay */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-logo {
+    width: 60vh;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.hero-overlay p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+
+/* Sections */
+section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2, section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Subsystems */
+.subsystem-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.subsystem-card {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+
+/* Team Section */
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.team-member {
+    text-align: center;
+    width: 180px;
+    
+}
+
+.team-member img {
+    width: 100%;
+    height: 240px;
+    /*border-radius: 50%;*/
+    margin-bottom: 0.5rem;
+}
+
+
+/* Gallery */
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery-grid img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+
+
+/* Deliverables */
+.deliverable-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.deliverable-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.deliverable-list li span {
+    font-weight: bold;
+}
+
+.download-btn {
+    text-decoration: none;
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #008c9e;
+}
+
+
+
+/* Footer */
+.site-footer {
+    background-color: #1a1a1a;   /* Dark background to match nav */
+    color: #fff;                 /* White text */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}

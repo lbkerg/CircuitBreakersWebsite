@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deliverables - SmartHat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">SmartHat</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="deliverables.html">Deliverables</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="deliverables">
+            <h1>Project Deliverables</h1>
+            <p>Below is a list of all deliverables for the SmartHat project. Click the download button to access each document.</p>
+
+            <ul class="deliverable-list">
+                <li>
+                    <span>Executive Summary</span>
+                    <a href="files/executive_summary.pdf" download class="download-btn">Download</a>
+                </li>
+                <li>
+                    <span>Team Charter</span>
+                    <a href="files/team_charter.pdf" download class="download-btn">Download</a>
+                </li>
+                <li>
+                    <span>Final Presentation Slides</span>
+                    <a href="files/final_presentation.pptx" download class="download-btn">Download</a>
+                </li>
+                <li>
+                    <span>tbd</span>
+                    <a href="files/testing_report.pdf" download class="download-btn">Download</a>
+                </li>
+                <li>
+                    <span>tbd</span>
+                    <a href="files/technical_documentation.pdf" download class="download-btn">Download</a>
+                </li>
+                <li>
+                    <span>tbd</span>
+                    <a href="files/user_manual.pdf" download class="download-btn">Download</a>
+                </li>
+                <!-- Add more deliverables as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> SmartHat Team</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
